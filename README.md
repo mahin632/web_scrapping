@@ -1,5 +1,5 @@
 # 📘 Web Scraping Project – Book Data Extractor
-## 🧾 Overview
+# 🧾 Overview
 This project demonstrates how to scrape structured book data from a public website using Python and BeautifulSoup. It collects book titles, prices, and availability from BooksToScrape.com, and saves the information into a CSV file for further analysis.
 
 The project is beginner-friendly and includes a step-by-step explanation for understanding HTML structures, handling pagination, and writing the extracted data to a custom dataset.
