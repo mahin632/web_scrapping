@@ -5,7 +5,7 @@ This project demonstrates how to scrape structured book data from a public websi
 The project is beginner-friendly and includes a step-by-step explanation for understanding HTML structures, handling pagination, and writing the extracted data to a custom dataset.
 
 ## 📚 Data Source
-Website: https://books.toscrape.com
+### Website: https://books.toscrape.com
 A sandbox site made specifically for practicing web scraping.
 
 Each book listing contains:
@@ -18,7 +18,7 @@ Stock Availability
 
 Star Rating (optional for future extensions)
 
-✅ Features
+## ✅ Features
 Scrapes all 50 pages of book listings
 
 Extracts:
@@ -33,38 +33,54 @@ Handles pagination
 
 Saves data to a CSV file (/content/books_dataset.csv)
 
-🧰 Technologies Used
-Tool	Purpose
-requests	Downloading HTML pages
-BeautifulSoup	Parsing and extracting data from HTML
-csv	Writing structured data to file
-🚀 Getting Started
-Clone or download this repo
+## 🧰 Technologies Used
+| Tool            | Purpose                               |
+| --------------- | ------------------------------------- |
+| `requests`      | Downloading HTML pages                |
+| `BeautifulSoup` | Parsing and extracting data from HTML |
+| `csv`           | Writing structured data to file       |
+
+## 🚀 Getting Started
+1. Clone or download this repo
+```bash
 git clone https://github.com/your-username/book-scraper.git
 cd book-scraper
-Install Required Libraries
+```
+2. Install Required Libraries
+```bash
 pip install requests beautifulsoup4
-Run the Script
+```
+3. Run the Script
+```bash
 python scrape_books.py
+```
 This will create a CSV file called
-
-books_dataset.csv 
+```bash
+books_dataset.csv
+```
 in your directory.
 
-📁 Output
+## 📁 Output
 The script generates a file:
-
+```bash
 books_dataset.csv
-Title	Price	Availability
-A Light in the Attic	£51.77	In stock
-Tipping the Velvet	£53.74	In stock
-Soumission	£50.10	In stock
-📌 Project Structure
+```
+| Title                | Price  | Availability |
+| -------------------- | ------ | ------------ |
+| A Light in the Attic | £51.77 | In stock     |
+| Tipping the Velvet   | £53.74 | In stock     |
+| Soumission           | £50.10 | In stock     |
+
+
+## 📌 Project Structure
+```bash
 book-scraper/
 ├── scrape_books.py      # Main scraping script
 ├── books_dataset.csv    # Output file
 └── README.md            # Project overview
-🧠 Concepts Covered
+```
+
+## 🧠 Concepts Covered
 Web scraping basics
 
 Navigating and analyzing HTML structure
