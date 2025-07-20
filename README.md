@@ -41,16 +41,11 @@ Saves data to a CSV file (/content/books_dataset.csv)
 | `csv`           | Writing structured data to file       |
 
 ## 🚀 Getting Started
-1. Clone or download this repo
-```bash
-git clone https://github.com/your-username/book-scraper.git
-cd book-scraper
-```
-2. Install Required Libraries
+1. Install Required Libraries
 ```bash
 pip install requests beautifulsoup4
 ```
-3. Run the Script
+2. Run the Script
 ```bash
 python scrape_books.py
 ```
